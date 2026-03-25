@@ -1,6 +1,7 @@
 // Replace ___ with your code
 #include <iostream>
 using namespace std ;
+
 // create Triangle class
 class Triangle {
 public :
@@ -10,6 +11,7 @@ public :
     // declare friend class
     friend class Area;
 };
+
 // create Rectangle class
 class Rectangle {
 public :
@@ -19,6 +21,7 @@ public :
     // declare friend class
     friend class Area;
 };
+
 // define friend class
 class Area{
 public :
@@ -31,6 +34,7 @@ public :
         return rectangle.length * rectangle.breadth;
     }
 };
+
 int main() {
     // get input for dimensions of triangle and rectangle
     double base, height, length, breadth;

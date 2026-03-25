@@ -1,6 +1,7 @@
 // Replace ___ with your code
 #include <iostream>
 using namespace std ;
+
 class Triangle {
 public :
     int base;
@@ -11,6 +12,7 @@ public :
         return area;
     }
 };
+
 int main() {
     // create object of Triangle
     Triangle triangle1;

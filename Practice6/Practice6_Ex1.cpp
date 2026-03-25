@@ -1,11 +1,13 @@
 // Replace ___ with your code
 #include <iostream>
+
 using namespace std ;
 class Animal {
 public :
     // pure virtual function
     virtual void make_sound () = 0;
 };
+
 // inherit Dog from Animal
 class Dog : public Animal {
 public :
@@ -14,6 +16,7 @@ public :
         cout << "Woof Woof" << endl ;
     }
 };
+
 int main() {
     // create an object of Dog
     Dog dog1;

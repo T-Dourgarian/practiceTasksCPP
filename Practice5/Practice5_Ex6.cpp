@@ -1,6 +1,7 @@
 // Replace ___ with your code
 #include <iostream>
 using namespace std ;
+
 class Person {
 public :
     // create virtual function activity()
@@ -9,6 +10,7 @@ public :
         cout << "Human Activity" << endl ;
     }
 };
+
 // derive Programmer class
 class Programmer : public Person {
 public :
@@ -18,6 +20,7 @@ public :
         cout << "Coding" << endl ;
     }
 };
+
 int main() {
     // create Programmer object prog
     Programmer prog;

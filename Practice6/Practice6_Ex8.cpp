@@ -1,11 +1,13 @@
 // Replace ___ with your code
 #include <iostream>
 using namespace std ;
+
 class Polygon {
 public :
     // pure virtual function to calculate area
     virtual double calculate_area () = 0;
 };
+
 // derive Triangle class from Polygon
 class Triangle : public Polygon {
 public :
@@ -17,6 +19,7 @@ public :
         return 0.5 * base * height;
     }
 };
+
 // Derive Rectangle class from Polygon
 class Rectangle : public Polygon {
 public :
@@ -31,6 +34,7 @@ public :
         return length * breadth;
     }
 };
+
 int main() {
     // get input for dimensions of triangle and rectangle
     double base, height, length, breadth;

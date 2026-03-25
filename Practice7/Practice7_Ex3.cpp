@@ -1,6 +1,7 @@
 // Replace ___ with your code
 #include <iostream>
 using namespace std ;
+
 class Rectangle {
 public :
     // create static variable
@@ -13,11 +14,14 @@ public :
         return length * breadth;
     }
 };
+
 // define the static variable
 int Rectangle::length;
+
 int main() {
     // create object
     Rectangle rectangle ;
+
     // get input for length and breadth of Rectangle
     cin >> Rectangle::length >> rectangle.breadth;
     // call the calculate_area () function

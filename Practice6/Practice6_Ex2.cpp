@@ -1,6 +1,7 @@
 // Replace ___ with your code
 #include <iostream>
 using namespace std ;
+
 class Greeting {
 public :
     // create greet() function 
@@ -8,6 +9,7 @@ public :
         cout << "Hello " << name << endl ;
     }
 };
+
 class Local_Greeting : public Greeting {
 public :
     // override the greet() function
@@ -15,6 +17,7 @@ public :
         cout << "Namaste " << name << endl ;
     }
 };
+
 int main() {
     // take input for name
     string name;

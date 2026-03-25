@@ -1,6 +1,7 @@
 // Replace ___ with your code
 #include <iostream>
 using namespace std ;
+
 class Rectangle {
 public :
     double length;
@@ -17,6 +18,7 @@ public :
         return length * breadth;
     }
 };
+
 int main() {
     // get input for length and breadth 
     double length, breadth;

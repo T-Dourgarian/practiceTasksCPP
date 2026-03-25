@@ -1,6 +1,7 @@
 // Replace ___ with your code
 #include <iostream>
 using namespace std ;
+
 // parent class Person
 class Person {
 private :
@@ -26,10 +27,11 @@ public :
         return marks;
     }
 };
+
 // inherit Student class from Person
 // using public inheritance
-class Student : public Person {
-};
+class Student : public Person {};
+
 int main() {
     // create Student object
     Student student ;

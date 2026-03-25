@@ -1,6 +1,7 @@
 // Replace ___ with your code
 #include <iostream>
 using namespace std ;
+
 // create Add class
 class Add {
 public :
@@ -16,6 +17,7 @@ public :
         return alpha + 7;
     }
 };
+
 int main() {
     // create object of Add class
     Add obj;

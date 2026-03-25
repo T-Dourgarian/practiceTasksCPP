@@ -2,16 +2,13 @@
 #include <iostream>
 using namespace std;
 
-
 // create enum to store names
 // create name1 variable outside the enum definition
-
 enum names{
     Marcia,
     Hernando,
     Jose
 } name1;
-
 
 int main() {
     // create another variable of names type

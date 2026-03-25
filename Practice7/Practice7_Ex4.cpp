@@ -1,6 +1,7 @@
 // Replace ___ with your code
 #include <iostream>
 using namespace std ;
+
 // base class
 class Account {
 protected :
@@ -12,6 +13,7 @@ public :
         cout << password << endl ;
     }
 };
+
 // derive Gmail class from account
 class Gmail : public Account {
 public :
@@ -25,6 +27,7 @@ public :
         password = pw;
     }
 };
+
 int main() {
     // create gmail1 object from Gmail
     // assign „ TalTech " and „ IT College " as parameters

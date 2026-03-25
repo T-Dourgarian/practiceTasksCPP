@@ -1,19 +1,26 @@
 // Replace ___ with your code
 #include <iostream>
 using namespace std ;
+
+
 // create Student class
+
 class Student {
 public :
     double marks;
     // constructor to initialize marks
     Student( double m) : marks( m) {}
 };
+
 // function that takes two Student objects as parameters
+
 double calculate_average(Student s1, Student s2) {
     // calculate the average of marks of the objects
     double average = (s1.marks + s2.marks) / 2;
     return average;
 }
+
+
 int main() {
     // create double variables
     double marks1, marks2;

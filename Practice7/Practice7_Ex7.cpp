@@ -1,4 +1,4 @@
-/ Replace ___ with your code
+// Replace ___ with your code
 #include <iostream>
 using namespace std ;
 class Account {
@@ -7,6 +7,7 @@ public :
 protected :
     string password;
 };
+
 class Email : protected Account {
 public :
     // create setter function for account_id
@@ -26,6 +27,7 @@ public :
         return password;
     }
 };
+
 int main() {
     // create string variables
     string acc , pw;

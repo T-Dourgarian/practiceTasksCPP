@@ -8,6 +8,7 @@ protected :
 public :
     string name;
 };
+
 // inherit Student class from Person
 // using protected inheritance
 class Student : protected Person {
@@ -29,6 +30,7 @@ public :
         return marks;
     }
 };
+
 int main() {
     // create Student object
     Student student ;

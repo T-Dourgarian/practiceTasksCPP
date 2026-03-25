@@ -1,6 +1,7 @@
 // Replace ___ with your code
 #include <iostream>
 using namespace std ;
+
 // create Area class
 class Area {
 public :
@@ -15,6 +16,7 @@ public :
         cout << area << endl ;
     }
 };
+
 int main() {
     // create Area object
     Area area1;

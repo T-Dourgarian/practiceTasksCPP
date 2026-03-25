@@ -1,6 +1,7 @@
 // Replace ___ with your code
 #include <iostream>
 using namespace std;
+
 // create the seasons enum along with the season1 variable
 enum seasons {
     spring,
@@ -9,6 +10,7 @@ enum seasons {
     autumn,
     winter
 } season1;
+
 int main() {
     // assign spring to season1 variable and print it
     season1 = spring;

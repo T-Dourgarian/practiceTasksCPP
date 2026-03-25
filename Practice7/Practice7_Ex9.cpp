@@ -1,12 +1,14 @@
 // Replace ___ with your code
 #include <iostream>
 using namespace std ;
+
 class Account {
 public :
     string account_id ;
 protected :
     string password;
 };
+
 // inherit from Account class in private mode
 class Email : private Account {
 public :
@@ -27,6 +29,7 @@ public :
         return password;
     }
 };
+
 int main() {
     // create string variables
     string acc , pw;

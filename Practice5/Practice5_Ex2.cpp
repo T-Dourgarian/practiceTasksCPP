@@ -1,6 +1,7 @@
 // Replace ___ with your code
 #include <iostream>
 using namespace std ;
+
 class Polygon {
 public :
     // variable to store total no. of polygon sides
@@ -17,6 +18,7 @@ public :
         return perimeter;
     }
 };
+
 // inherit the Quadrilateral class
 class Quadrilateral : public Polygon {
 public :
@@ -29,6 +31,7 @@ public :
         cout << "A quadrilateral is a polygon with 4 sides." << endl ;
     }
 };
+
 int main() {
     // create an object of Quadrilateral q1
     Quadrilateral q1;

@@ -1,12 +1,14 @@
 // Replace ___ with your code
 #include <iostream>
 using namespace std ;
+
 class Person {
 public :
     void display_info () {
         cout << "I am a person." << endl ;
     }
 };
+
 // inherit Student from Person and override display_info ()
 class Student : public Person {
 public :
@@ -14,6 +16,7 @@ public :
         cout << "I am a student." << endl ;
     }
 };
+
 // inherit Employee from Person and override display_info ()
 class Employee : public Person {
 public :
@@ -21,6 +24,7 @@ public :
         cout << "I am an employee." << endl ;
     }
 };
+
 int main() {
     // create objects of the Student and Employee classes
     Student student1;

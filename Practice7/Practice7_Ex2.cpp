@@ -1,6 +1,7 @@
 // Replace ___ with your code
 #include <iostream>
 using namespace std ;
+
 class Company {
 public :
     // declare a static variable
@@ -10,6 +11,7 @@ public :
         cout << name << endl ;
     }
 };
+
 // define the static variable
 string Company::name;
 int main() {

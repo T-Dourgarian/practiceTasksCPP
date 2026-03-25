@@ -9,6 +9,7 @@ protected :
 public :
     string name;
 };
+
 // inherit Student class from Person
 // using private inheritance
 

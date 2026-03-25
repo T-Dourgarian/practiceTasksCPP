@@ -1,6 +1,7 @@
 // Replace ___ with your code
 #include <iostream>
 using namespace std ;
+
 class Complex_Number {
 public :
     // real and imag variables
@@ -16,6 +17,7 @@ public :
     // it also has two Complex_Number objects as parameters
     friend Complex_Number add_complex (Complex_Number obj1, Complex_Number obj2);
 };
+
 // define the friend function
 Complex_Number add_complex (Complex_Number obj1, Complex_Number obj2) {
     // create result object with arguments 0.0 and 0.0
@@ -27,6 +29,7 @@ Complex_Number add_complex (Complex_Number obj1, Complex_Number obj2) {
     // return the result object
     return result;
 }
+
 int main() {
     // get 4 input values
     double n1, n2, n3, n4;

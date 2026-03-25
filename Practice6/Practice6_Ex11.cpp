@@ -1,6 +1,7 @@
 // Replace ___ with your code
 #include <iostream>
 using namespace std ;
+
 // create Student template
 template<class T>
 class Student {
@@ -18,6 +19,7 @@ public :
         return average;
     }
 };
+
 int main() {
     // create int and double arrays
     int marks_int [2];
